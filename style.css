@@ -1,0 +1,157 @@
+body{
+
+display: flex ;
+flex-direction: column;
+
+
+margin: 0 auto;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.hero-section {
+
+height: 600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url("images/tenerife.jpg");
+background-size: cover;
+background-position: center;
+
+
+
+
+}
+
+.hero-h{
+margin-top: 120px;
+background-color: rgb(48, 48, 143);
+color: rgb(224, 218, 218);
+padding: 2px 8px;
+border-radius: 5px;
+font-weight: bold;
+margin-bottom: 0;
+
+
+}
+
+.hero-p{
+max-width: 410px;
+margin-top: 16px;
+margin-bottom: 0;
+background-color: rgb(64, 116, 212);
+padding: 5px 10px;
+border-radius: 5px;
+text-align: center;
+color: rgb(224, 218, 218);
+font-weight: bold;
+text-shadow: 0 0 3px black;
+}
+
+
+.mid-section {
+ 
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background: #F1FAEE;
+  background: linear-gradient(#d9dbd9,#2f98a0);
+
+
+}
+.mid-title{
+  margin-top: 39px;
+  margin-bottom: 54px;
+  
+  
+
+}
+
+.activities-section{
+ display: flex;
+  justify-content: space-around;
+  
+ 
+ 
+}
+
+.activity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   max-width: 200px;
+  
+  
+
+}
+
+.activities-img{
+  
+  border-radius: 50%;
+  border: 2px solid rgb(16, 120, 238);
+  max-width: 120px;
+  height: 150px;
+
+
+
+}
+
+.act-p1{
+font-weight: bold;
+
+}
+
+.bottom-section{
+ 
+  height: 394px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#dae2d8,#d2ecee);
+ 
+  
+}
+
+.card {
+  display: flex;
+  padding-right:  5px ;
+  border-bottom: 6px solid rgb(6, 9, 241);
+  max-width: 450px;
+  height: 254px;
+  align-items: center;
+  border-radius: 10px;
+  gap: 5px;
+  background: linear-gradient(rgb(25, 137, 230),rgb(193, 202, 243));
+  
+  
+}
+
+.pfp{
+max-width: 150px;
+height: 150px;
+margin-left: 10px;
+border-radius: 5px;
+background-size: cover;
+border: 5px solid rgb(194, 201, 241);
+
+
+}
+
+.card-title{
+font-weight: bold;
+
+}
+
+.bio{
+font-style: italic;
+
+}
+
+.name{
+font-weight: bold;
+
+}
